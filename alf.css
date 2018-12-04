@@ -6,22 +6,6 @@
 	z-index: 1000;
 }
 
-.seeThru-display {
-	position: fixed;
-	bottom: -54px;
-	left: 0;
-	z-index: 1000;
-}
-
-.seeThru-display .hide {
-	display: none;
-}
-
 .alfForMansilyaReady {
 	display: block;
-}
-@media only screen and (max-width: 767px) {
-	.alfForMansilyaReady {
-		display: none;
-	}
 }
