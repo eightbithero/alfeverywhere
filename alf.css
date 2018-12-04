@@ -13,6 +13,9 @@
 	z-index: 1000;
 }
 
+.seeThru-display .hide {
+	display: none;
+}
 
 .alfForMansilyaReady {
 	display: block;

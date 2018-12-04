@@ -22,6 +22,7 @@ var transparentVideo = seeThru
         alfPromoVideo.classList.add( 'alfForMansilyaReady' );
 
         video.addEventListener('ended', function () {
+            document.getElementsByClassName('seeThru-display').item(0).classList.add('hide');
             alfPromoVideo.classList.remove( 'alfForMansilyaReady' );
         });
     });
