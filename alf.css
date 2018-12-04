@@ -1,0 +1,24 @@
+.alfForMansilya {
+	display: none;
+	position: fixed;
+	bottom: -54px;
+	left: 0;
+	z-index: 1000;
+}
+
+.seeThru-display {
+	position: fixed;
+	bottom: -54px;
+	left: 0;
+	z-index: 1000;
+}
+
+
+.alfForMansilyaReady {
+	display: block;
+}
+@media only screen and (max-width: 767px) {
+	.alfForMansilyaReady {
+		display: none;
+	}
+}
